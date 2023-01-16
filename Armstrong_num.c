@@ -21,7 +21,7 @@ int main()
         num=num/10;
         sum=sum+pow(a,count);
     }
-    sum=sum+pow(num,count);
+    
     printf("%d\n",sum);
     if(number==sum){
         printf("the number is an armstrong number");
